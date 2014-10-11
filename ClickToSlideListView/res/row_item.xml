@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="74dp"
+    android:animateLayoutChanges="true" >
+
+   	<LinearLayout
+        android:id="@+id/back_content"
+        android:layout_width="86dp"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/front_content"
+        android:layout_alignParentRight="true"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+   	    <!-- Back content -->
+   	    
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/front_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal" >
+
+        <!-- front content -->
+        
+    </RelativeLayout>
+
+</RelativeLayout>
